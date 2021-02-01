@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+    
+    header {
+        background-color: aqua;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1%;
+    }
+    
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 50%;
+        margin-right: 5%;
+        font-size: x-large;
+    }
+    
+    #link {
+        border: 5px solid;
+        border-color: aqua aqua rgb(64, 41, 126) aqua;
+    }
+
+   #section {
+    margin: 3% 35% 3% 35%;
+    border: black;
+    border-radius: 3%;
+    border-style: dotted;
+    font-size: x-large;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: aqua;
+        padding: 1%;
+    }

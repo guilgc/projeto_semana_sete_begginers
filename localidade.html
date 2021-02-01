@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuso horários-Localidade</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+        </style>
+    <link rel="stylesheet" href="localidade.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="https://www.flaticon.com/svg/vstatic/svg/3263/3263627.svg?token=exp=1611942410~hmac=ac860707dcb33c53fcc9e03d6d32201a" alt="logo com relogio e mundo" width="20%">
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a id="link" href="localidade.html">Busca por Localidade</a>
+            <a href="ip.html">Busca por IP</a>
+
+        </nav>
+    </header>
+
+    <section>
+        <div class="continente">
+            <select id="continente">
+            <option value="" disabled selected>Selecione o
+            um continente</option>
+            <option value="Africa"> Africa</option>
+            <option value="America">America </option>
+            <option value="Antarctica">Antarctica </option>
+            <option value="Asia">Asia </option>
+            <option value="Atlantic">Atlantic </option>
+            <option value="Australia">Australia </option>
+            <option value="Europe">Europe </option>
+            <option value="Pacific"> Pacific</option>
+        </select>
+
+    </div>
+
+        <div id="continente2">
+            <select id="regiao">
+                <option value="" disabled selected>Selecione o
+                    uma região</option>
+            </select>
+        </div>
+
+        <div id="hora" align="center"></div>
+
+    </section>
+
+    <footer>
+        <div>
+            <a href="about.html">About</a>
+        </div>
+        <div>
+            <p>Este website não faz uso de cookies.</p>
+        </div>
+    </footer>
+
+    <script src="localidade.js"></script>
+</body>
+</html>
